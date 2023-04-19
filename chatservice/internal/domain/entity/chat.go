@@ -61,7 +61,7 @@ func (c *Chat) Validate() error {
 
 func (c *Chat) AddMessage(m *Message) error {
 	if c.Status == "ended" {
-		return errors.New("chat is ended, no more messages allowed")
+		return errors.New("chat is ended. no more messages allowed")
 	}
 	for {
 		if c.Config.Model.GetMaxTokens() >= m.GetQtdTokens()+c.TokenUsage {
