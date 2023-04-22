@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  hello-go:
+    image: new69/fullcycle
+    container_name: hello_go
+    volumes:
+      - .:/go/src
