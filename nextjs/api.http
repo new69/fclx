@@ -27,3 +27,11 @@ Content-Type: application/json
 ###
 @messageId = 77485a9b-916d-4d72-b82a-d16b0874d9ec
 GET http://localhost:3000/api/messages/{{messageId}}/events
+
+###
+POST http://localhost:3000/api/generate-token
+Content-Type: application/json
+
+{
+
+}
