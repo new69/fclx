@@ -32,7 +32,8 @@
 				"prisma.prisma",
 				"zxh404.vscode-proto3",
 				"firsttris.vscode-jest-runner",
-				"amazonwebservices.aws-toolkit-vscode"
+				"amazonwebservices.aws-toolkit-vscode",
+				"bradlc.vscode-tailwindcss"
 			]
 		}
 	}

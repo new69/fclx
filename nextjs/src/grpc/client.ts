@@ -4,9 +4,9 @@ import { ProtoGrpcType } from "./rpc/chat";
 import path from 'path';
 
 const packageDefinition = protoLoader.loadSync(
-    path.resolve(process.cwd(), "proto", "chat.proto")
+  path.resolve(process.cwd(), "proto", "chat.proto")
 );
-  
+
 const proto = grpc.loadPackageDefinition(
   packageDefinition
 ) as unknown as ProtoGrpcType;
